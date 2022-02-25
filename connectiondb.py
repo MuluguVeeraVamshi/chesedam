@@ -1,0 +1,11 @@
+import sqlite3
+con=sqlite3.connect("sales.db")
+print("Database connected sucessfully...!")
+cur=con.cursor()
+#cur.execute("create table product(name text,qty int,price float)")
+cur.execute("insert into product(name,qty,price) values('shampoo',2,300),('Biscuits',5,150),('grocery',10,1049),('books',4,120) ")
+cur.execute("select * from product")
+print(cur.fetchall())
+print("Table is created..!")
+con.close()
+print("sorry :) Database is closed..!")
