@@ -11,4 +11,4 @@ def pals(x):
         print("palindrome")
 	else:
     	print("not palindrome")
-print("This is palindrome")
+orint("This is vamshi")
