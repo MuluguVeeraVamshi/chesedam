@@ -12,3 +12,4 @@ def pals(x):
 	else:
     	print("not palindrome")
 orint("This is vamshi")
+print("These are my prends:Seswitha, Chadana, Pasyanthi")
